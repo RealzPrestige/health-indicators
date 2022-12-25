@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "indicators",
+  "version": "1.0",
+
+  "name": "Indicators",
+  "authors": [
+    "zPrestige_"
+  ],
+  "mixins": [
+    "indicators.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.19.x"
+  }
+}
